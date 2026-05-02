@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta para Thaynara</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💫</text></svg>">
+</head>
+<body>
+    <div class="starfield" id="starfield"></div>
+    
+    <main class="container">
+        <!-- Section 1: Welcome -->
+        <section class="welcome-section" id="welcome">
+            <div class="symbol-container">
+                <div class="path-icon">
+                    <svg viewBox="0 0 100 100" class="path-svg">
+                        <path d="M50 10 Q30 30 20 50 Q10 70 30 90" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <circle cx="50" cy="15" r="4" fill="currentColor"/>
+                        <circle cx="15" cy="55" r="3" fill="currentColor"/>
+                        <circle cx="35" cy="90" r="4" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div class="door-icon">
+                    <svg viewBox="0 0 60 100" class="door-svg">
+                        <rect x="10" y="10" width="40" height="80" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <path d="M10 50 Q30 40 50 50" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4,2"/>
+                        <circle cx="42" cy="50" r="3" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div class="union-icon">
+                    <svg viewBox="0 0 100 50" class="union-svg">
+                        <circle cx="35" cy="25" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <circle cx="65" cy="25" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <path d="M35 7 Q50 25 35 43" fill="none" stroke="currentColor" stroke-width="1"/>
+                        <path d="M65 7 Q50 25 65 43" fill="none" stroke="currentColor" stroke-width="1"/>
+                    </svg>
+                </div>
+            </div>
+            
+            <h1 class="title">Para Thaynara</h1>
+            
+            <p class="welcome-text">
+                Thaynara, este espaço foi criado especialmente para você, como um gesto de carinho e reflexão sobre nossa história. Que seja um convite para novos caminhos.
+            </p>
+            
+            <button class="reveal-button" id="revealBtn">
+                <span class="button-text">Mensagem para você</span>
+                <span class="button-icon">✦</span>
+            </button>
+        </section>
+
+        <!-- Section 2: Main Message -->
+        <section class="message-section hidden" id="message">
+            <div class="message-container">
+                <div class="divider">
+                    <span class="divider-symbol">❧</span>
+                </div>
+                
+                <p class="main-message">
+                    Thaynara, às vezes a vida nos coloca diante de pausas que parecem definitivas, mas que na verdade servem para nos mostrar o que realmente importa. Eu não estou aqui para pedir nada ou impor qualquer caminho, apenas para compartilhar uma percepção que tem crescido em mim: acredito que ainda existe espaço para algo diferente entre nós.
+                </p>
+                
+                <p class="main-message">
+                    Não falo de voltar ao que já foi, porque o passado já cumpriu seu papel. O que proponho é olhar para o presente com calma, sem pressa e sem teimosia, e perceber que talvez os caminhos não estejam fechados, apenas aguardando que tenhamos coragem de atravessá-los.
+                </p>
+                
+                <p class="main-message">
+                    Eu sei que cada escolha carrega suas dificuldades, mas também sei que quando há equilíbrio e sinceridade, as possibilidades se tornam mais claras. O que tivemos não precisa ser visto como um fim, mas como um ponto de partida para algo novo, mais leve e verdadeiro.
+                </p>
+                
+                <p class="main-message">
+                    O que eu proponho é simples: uma conversa sincera, sem expectativas rígidas, apenas para descobrir se ainda existe algo bonito a ser vivido. O resto deixamos para o tempo e para a nossa própria coragem de dar um passo diferente.
+                </p>
+                
+                <p class="main-message signature">
+                    Você é importante, e eu quero que saiba disso. O que vier depois será fruto da nossa escolha, não de acaso.
+                </p>
+                
+                <div class="divider">
+                    <span class="divider-symbol">❧</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Inspirational Quotes -->
+        <section class="quotes-section" id="quotes">
+            <div class="quotes-container">
+                <div class="quote-card">
+                    <span class="quote-icon">⟐</span>
+                    <p class="quote-text">Os caminhos estão abertos.</p>
+                </div>
+                
+                <div class="quote-card">
+                    <span class="quote-icon">⚜</span>
+                    <p class="quote-text">A vitória é possível.</p>
+                </div>
+                
+                <div class="quote-card">
+                    <span class="quote-icon">♥</span>
+                    <p class="quote-text">O grande amor floresce quando há equilíbrio.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p class="footer-text">✦ Com carinho ✦</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
